@@ -1,0 +1,39 @@
+.container {
+    height: 84px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: linear-gradient(149.48deg, #0f080f 65.19%, #090808 89.16%);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 390px;
+
+    .items {
+        padding: 0 34px;
+        display: flex;
+        justify-content: space-between;
+        .item {
+            list-style-type: none;
+            .icon {
+                width: 36px;
+                height: 28px;
+            }
+            .label {
+                font-family: Syne;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 12px;
+                letter-spacing: 0.05em;
+                text-align: center;
+                margin: 0;
+                margin-top: 7px;
+                color: white;
+            }
+        }
+        .activeItem {
+        }
+    }
+}

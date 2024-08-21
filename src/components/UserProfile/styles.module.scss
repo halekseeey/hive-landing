@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    margin-top: -22px;
+    .avatar {
+        height: 181px;
+        width: 137px;
+        background-image: url('@/assets/avatarBorder.svg');
+        background-position: center;
+    }
+    .login {
+        font-family: Raleway;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.57px;
+        letter-spacing: 0.29em;
+        text-align: center;
+        margin: 0;
+    }
+    .mainHoneycombs {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+    .additionalHoneycombs {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+}

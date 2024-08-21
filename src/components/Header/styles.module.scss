@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    padding: 27px;
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 390px;
+    background: black;
+
+    .logo {
+        height: 36px;
+    }
+}
